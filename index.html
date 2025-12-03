@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="Author" content="Satori">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- Line Icon -->
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+
+    <!-- BS5-css-zone -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Icon Logo -->
+    <link rel="icon" type="image/x-icon" href="./assets/image/cz-icon.png">
+
+    <title>Cos Zone</title>
+</head>
+
+<body class="w-100">
+    <!-- Start Header -->
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <!-- Left side -->
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <image src="./assets/image/cz-icon.png" alt="Logo" width="40">
+                        <span class="fs-4 ms-2 fw-bolder"><span class="text-darkblue">COS</span> <span
+                                class="text-pink">ZONE.</span></span>
+                    </a>
+                </div>
+
+                <!-- Mid side -->
+                <div class="navbar-brand justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 justify-content-around fw-bold">
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link text-origin" href="./men/index.html">men</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link text-origin" href="./women/index.html">women</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link text-origin" href="./accessories/index.html">accessories</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link text-origin" href="./figures/index.html">Figures</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link text-origin" href="./cosplay-set/index.html">Cosplay</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right side -->
+                <div class="navbar-brand justify-content-end" id="navbarSupportedContent">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-2 ms-2">
+                                <a href="/"><i class="lni lni-cart-1 fs-3 text-origin"></i></a>
+                            </li>
+                            <li class="nav-item me-2 ms-2">
+                                <a href="/"><i class="lni lni-heart fs-3 text-origin"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <image width="40" height="40" class="pf-image rounded-5" src="./assets/image/pf.jpg"
+                                        alt="Profile">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Setting</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">log out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end Header -->
+
+    <!-- Start Main -->
+    <main class="w-100">
+        <!-- Carousel -->
+        <section class="container">
+            <div class="carousel mb-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <image height="550" src="./assets/image/poster/poster-1.jpg" class="d-block w-100 carousel-image"
+                                alt="poster">
+                        </div>
+                        <div class="carousel-item">
+                            <image height="550" src="./assets/image/poster/poster-2.jpg" class="d-block w-100 carousel-image"
+                                alt="poster">
+                        </div>
+                        <div class="carousel-item">
+                            <image height="550" src="./assets/image/poster/poster-3.jpg" class="d-block w-100 carousel-image"
+                                alt="poster">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrival Section -->
+        <div class="d-flex flex-column">
+            <div class="float-start align-items-center">
+                <p class="fs-3 fw-semibold text-origin text-center">New Arrival</p>
+                <div class="mx-auto border-bottom border-origin mb-3 w-75"></div>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- slide 1 -->
+                        <div class="swiper-slide d-flex flex-row gap-1">
+                            <a class="text-decoration-none" href="./men/shirt/shirt-1.html">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/men/shirt/shirt-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Button-Down Shirt | Light Grey</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/men/jacket/jacket-1.jpeg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Denim Jacket</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/women/dress/dress-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Black Elegant Dress</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/women/shirt/shirt-2.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Female T-shirt | Light Grey</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- slide 2 -->
+                        <div class="swiper-slide d-flex flex-row gap-1">
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/accessories/bracelets/bracelet-1.png" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Bracelet</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/accessories/handBags/handbag-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Handbag</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/Figures/JJK/geto.webp" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Geto Suguru | Jujutsu Kaisen</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/cos-cos/MaleSet/Neuvilette.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Neuvilette Costume | Full Set</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trendy Collection Section -->
+        <div class="bg-origin">
+            <div class="container pt-5 pb-5 mb-3 mt-3">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <image src="./assets/image/christmas.jpg" class="image-fluid rounded-start" alt="Collection">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ms-4">
+                                <h1 class="card-title text-origin fw-bold">Christmas Collection</h1>
+                                <div class="d-flex flex-column align-content-between">
+                                    <p class="card-text mt-4 mb-4 fs-6 text-secondary">Get ready to sleigh the holiday
+                                        season! Our
+                                        brand-new
+                                        Christmas Costume Collection has everything you need to bring festive cheer to
+                                        your
+                                        parties, family photos, and seasonal events.</p>
+                                    <p class="card-text mt-4 mb-4 fs-6 text-secondary">From the Classic Santa Suit and
+                                        Charming Mrs.
+                                        Claus
+                                        to our
+                                        merry Elf Helper sets and
+                                        adorable Reindeer outfits for the little ones (and pets!), you'll find the
+                                        perfect
+                                        ensemble to celebrate in style.</p>
+                                    <p class="card-text mt-4 mb-4 fs-6 text-secondary">Don't just celebrate—become the
+                                        holiday spirit!
+                                        Limited stock
+                                        available, so shop the
+                                        collection now and make this Christmas unforgettable.</p>
+                                </div>
+                                <a class="btn btn-origin fs-5 ps-2 pe-2" href="#">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Section -->
+        <div class="container">
+            <div class="d-flex flex-column mb-5 mt-5">
+                <div class="float-start align-items-center">
+                    <p class="fs-3 fw-semibold text-origin text-center">Our Service</p>
+                    <div class="mx-auto border-bottom border-origin mb-3 w-75"></div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-sm-3">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4 text-origin">Custom Order Fulfillment</h3>
+                                <p class="card-text text-secondary">With supporting text below as a natural lead-in to
+                                    additional
+                                    content. We bring your unique character vision to life with tailored costumes and
+                                    props.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4 text-origin">Quality & Authenticity Check</h3>
+                                <p class="card-text text-secondary pb-4">With supporting text below as a natural lead-in
+                                    to
+                                    additional content. Each item is inspected to ensure high standards and
+                                    screen-accurate details.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4 text-origin">Expert Sizing Consultation</h3>
+                                <p class="card-text text-secondary">With supporting text below as a natural lead-in to
+                                    additional content. Get personalized advice to guarantee the perfect fit for your
+                                    chosen costume.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4 text-origin">Secure Worldwide Shipping</h3>
+                                <p class="card-text text-secondary">With supporting text below as a natural lead-in to
+                                    additional content. Reliable and protected delivery of your cosplay gear, no matter
+                                    where you are.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback Section -->
+        <div class="bg-origin">
+            <div class="container pb-3 pt-3">
+                <div class="d-flex flex-column mb-5 mt-5">
+                    <div class="float-start align-items-center">
+                        <p class="fs-3 fw-semibold text-white text-center">Feedback</p>
+                        <div class="mx-auto border-bottom border-white mb-3 w-75"></div>
+                    </div>
+                    <div class="row">
+                        <label for="exampleInputText1" class="form-label text-white">Comment your feedback
+                            here</label>
+                        <input type="text" id="exampleInputText1" class="form-control"
+                            aria-describedby="passwordHelpBlock" placeholder="Your feedback...">
+                        <div id="passwordHelpBlock" class="form-text text-white">
+                            We'll never share your feedback with anyone else.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Sell Section -->
+        <div class="d-flex flex-column mb-5 mt-5">
+            <div class="float-start align-items-center">
+                <p class="fs-3 fw-semibold text-origin text-center">Top Sell product</p>
+                <div class="mx-auto border-bottom border-origin mb-3 w-75"></div>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- slide 1 -->
+                        <div class="swiper-slide d-flex flex-row gap-1">
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/women/shirt/shirt-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Female T-shirt | Dark Blue</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/men/shirt/shirt-2.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Button-Down shirt | White</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/men/trousers/trousers-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Cotton Trousers | Black</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/men/shorts/shorts-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">men's Club Shorts</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- slide 2 -->
+                        <div class="swiper-slide d-flex flex-row gap-1">
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/cos-cos/femaleset/hu-tao.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Hu Tao Costume | Full Set</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/accessories/handBags/handbag-8.avif" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Louis Vuitton Hand Bag</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/accessories/shoes/shoes-1.jpg" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Shoes</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="#">
+                                <div class="card m-3 card-hover" style="width: 18rem;">
+                                    <image src="./assets/image/product/cos-cos/femaleset/lauma.webp" class="card-image-top"
+                                        alt="men shirt">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Lauma Costume | Full Set</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end Main -->
+
+    <!-- Start Footer -->
+    <footer class="w-100 mt-5">
+        <div class="bg-footer p-5 text-white">
+            <div class="d-flex justify-content-around">
+                <div class="d-flex flex-column justify-content-center">
+                    <a class="d-flex align-items-center text-decoration-none" href="index.html">
+                        <image src="./assets/image/cz-icon.png" alt="Logo" width="40">
+                        <span class="text-white fs-1 ms-2 fw-bolder">COS ZONE.</span>
+                    </a>
+                    <p class="fs-7 ft-w mt-5">Find your perfect look! Explore our vast collection of costumes for
+                        Halloween, theatrical events, conventions, and parties. We offer styles for all ages and themes.
+                    </p>
+                    <p class="fs-7 ft-w mt-5">Follow us on :</p>
+                    <div class="d-flex flex-row gap-3">
+                        <a class="text-decoration-none" href="#">
+                            <image width="20" height="20" src="./assets/image/Social/facebook.png" alt="1">
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <image width="20" height="20" src="./assets/image/Social/instagram.png" alt="2">
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <image width="20" height="20" src="./assets/image/Social/tiktok.png" alt="3">
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <image width="20" height="20" src="./assets/image/Social/x.png" alt="4">
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <image width="20" height="20" src="./assets/image/Social/telegram.png" alt="5">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-column gap-3">
+                        <h3 class="text-white">Site</h3>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Home</span>
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Male Outfit</span>
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Female Outfit</span>
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">accessories</span>
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Figure</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-column gap-3">
+                        <h3 class="text-white">Legal</h3>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Term of Service</span>
+                        </a>
+                        <a class="text-decoration-none" href="#">
+                            <span class="text-white fs-7">Privacy Policy</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-origin d-flex justify-content-center align-middle p-1 text-white">
+            <p class="fs-6">Copyright &copy;2025, Satori</p>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- BS5-js-zone -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <!-- Main Script -->
+    <script src="./assets/js/stickyNavbar.js"></script>
+
+    <!-- Swiper-js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swipe.js"></script>
+</body>
+
+</html>

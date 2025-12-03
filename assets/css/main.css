@@ -1,0 +1,157 @@
+.text-pink {
+    color: #D3267F;
+}
+
+.text-darkblue,
+.text-origin {
+    color: #214192;
+}
+
+.text-header-origin{
+    color: #214192;
+}
+
+.text-origin:hover{
+    color: #214EA3;
+}
+.stick-nav .text-origin:hover{
+    color: #33D0D6;
+}
+
+.stick-nav .text-pink,
+.stick-nav .text-darkblue,
+.stick-nav .text-origin {
+    color: #fff;
+}
+
+
+.bg-footer {
+    background: #214192;
+    background: -webkit-linear-gradient(to bottom, #214192, #D3267F);
+    background: linear-gradient(to bottom, #214192, #D3267F);
+}
+
+.bg-origin {
+    background-color: #214192;
+}
+
+.btn-origin{
+    background-color: #214192;
+    color: #fff;
+}
+.btn-origin:hover{
+    background-color: #214192c1;
+    color: #fff;
+}
+.btn-origin:active{
+    background-color: #2141928a;
+    color: #fff;
+}
+
+.btn-stick{
+    background-color: #214192 !important;
+    color:  #fff!important;
+}
+
+.btn-disable-origin, 
+.btn-disable-origin:hover {
+    background-color: rgba(33, 65, 146, 0.15);
+    color: #214192;
+    border: 1px solid #214192;
+}
+
+.btn-outline-origin{
+    background-color: transparent;
+    color: #214192;
+    border: 1px solid #214192;
+}
+.btn-outline-origin:hover, .btn-outline-origin-50:hover{
+    background-color: #214192;
+    color: #fff;
+}
+.btn-outline-origin-50{
+    background-color: rgba(33, 65, 146, 0.15);
+    color: #214192;
+    border: 1px solid #214192;
+}
+
+.pf-img {
+    object-fit: cover;
+    border: 3px solid #214192;
+}
+.stick-nav .pf-img{
+    object-fit: cover;
+    border: 3px solid #1991C9;
+}
+
+header.stick-nav{
+    transition: all 0.25s;
+}
+
+header.stick-nav{
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    background: #214192;
+    background: -webkit-linear-gradient(to right, #214192, #D3267F);
+    background: linear-gradient(to right, #214192, #D3267F);
+}
+
+.stick-nav a{
+    color: #fff;
+}
+
+.stick-nav .nav-active {
+    color: #1891CA;
+}
+.nav-active {
+    color: #D3267F;
+}
+
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fs-7{
+    font-size: 15px;
+}
+
+.ft-w{
+    width: 300px;
+}
+
+.card-hover{
+    box-shadow: none;
+    transition: box-shadow 0.15s;
+}
+.card-hover:hover{
+    box-shadow: 0px 0px 10px rgba(211, 38, 127, 0.75);
+}
+.card-hover:active{
+    box-shadow: 0px 0px 10px rgba(33, 65, 146, 0.75);
+}
+
+.pe-6{
+    padding-right: 12rem;
+}
+.ps-6{
+    padding-left: 12rem;
+}
+
+.h-349{
+    height: 349px;
+}
+
+.border-origin{
+    border: 2px solid #214192 !important;
+}
+
+.none-border{
+    border: none !important;
+}
+
+/* .logOut:hover{
+    background-color: red;
+    color: white;
+} */
