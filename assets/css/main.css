@@ -24,6 +24,10 @@
     color: #fff;
 }
 
+.stick-nav .dropdown-menu .dropdown-item{
+    color: #214192;
+}
+
 
 .bg-footer {
     background: #214192;
@@ -151,7 +155,7 @@ header.stick-nav{
     border: none !important;
 }
 
-/* .logOut:hover{
-    background-color: red;
-    color: white;
-} */
+.logOut:hover,
+.stick-nav .logOut:hover{
+    color: red;
+}
